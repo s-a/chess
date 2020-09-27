@@ -31,7 +31,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"deploy": "git subtree push --prefix public origin gh-pages"
+		"deploy": "git push origin --delete gh-pages && git subtree push --prefix public origin gh-pages"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -48,5 +48,5 @@
 			"last 1 safari version"
 		]
 	},
-	"homepage": "."
+	"homepage": "https://s-a.github.io/chess"
 }
